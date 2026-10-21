@@ -16,8 +16,8 @@ export function Footer() {
           <Logo />
           <p className="mt-5 max-w-xs leading-relaxed">Heavy duty truck repairs, servicing and maintenance across Gauteng and its outskirts.</p>
           <div className="mt-6 flex gap-3">
-            <a href={`tel:${SITE.phoneTel}`} aria-label="Call Truck Agents" className="flex h-12 w-12 items-center justify-center rounded-full bg-signal text-white transition hover:bg-signal-dark"><PhoneIcon className="h-5 w-5" /></a>
-            <a href={WA_LINK("Hi Truck Agents, I need help with my truck.")} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Truck Agents" className="flex h-12 w-12 items-center justify-center rounded-full bg-[#25D366] text-ink transition hover:bg-[#1fbd5b]"><WhatsAppIcon className="h-6 w-6" /></a>
+            <a href={`tel:${SITE.phoneTel}`} aria-label="Call Agents Diesel Services" className="flex h-12 w-12 items-center justify-center rounded-full bg-signal text-white transition hover:bg-signal-dark"><PhoneIcon className="h-5 w-5" /></a>
+            <a href={WA_LINK("Hi Agents Diesel Services, I need help with my truck.")} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Agents Diesel Services" className="flex h-12 w-12 items-center justify-center rounded-full bg-[#25D366] text-ink transition hover:bg-[#1fbd5b]"><WhatsAppIcon className="h-6 w-6" /></a>
           </div>
         </div>
         <div>
@@ -42,7 +42,7 @@ export function Footer() {
         </div>
       </div>
       <div className="mx-auto mt-14 flex max-w-7xl flex-col gap-3 border-t border-white/10 px-5 pt-6 text-sm md:flex-row md:justify-between">
-        <p>&copy; {new Date().getFullYear()} Truck Agents. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Agents Diesel Services. All rights reserved.</p>
         <p className="flex gap-5"><Link href="/privacy-policy" className="hover:text-white">Privacy Policy</Link><Link href="/terms-of-service" className="hover:text-white">Terms of Service</Link></p>
       </div>
     </footer>

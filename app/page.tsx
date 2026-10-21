@@ -14,7 +14,7 @@ import { SERVICES } from "@/lib/services"
 import { AREAS } from "@/lib/areas"
 
 export const metadata: Metadata = {
-  title: { absolute: "Truck Agents | Heavy Duty Truck Repairs, Services and Maintenance in Gauteng" },
+  title: { absolute: "Agents Diesel Services | Heavy Duty Truck Repairs in Gauteng" },
   alternates: { canonical: "/" },
 }
 
@@ -39,7 +39,7 @@ export default function Home() {
       <section className="relative isolate overflow-hidden bg-steel">
         <div className="mx-auto grid max-w-7xl items-center gap-10 px-5 py-14 md:py-20 lg:grid-cols-[1.1fr_0.9fr]">
           <div>
-            <p className="rise font-display text-2xl font-semibold text-signal" style={{ animationDelay: "0ms" }}>Truck Agents, Gauteng</p>
+            <p className="rise font-display text-2xl font-semibold text-signal" style={{ animationDelay: "0ms" }}>Agents Diesel Services, Gauteng</p>
             <h1 className="rise mt-3 text-[3.6rem] font-bold leading-[0.9] sm:text-7xl lg:text-[6.4rem]" style={{ animationDelay: "120ms" }}>
               Heavy duty truck repairs across Gauteng.
             </h1>

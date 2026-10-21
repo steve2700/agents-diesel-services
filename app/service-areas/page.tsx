@@ -8,7 +8,7 @@ import { AREAS } from "@/lib/areas"
 
 export const metadata: Metadata = {
   title: "Truck Repairs Across Gauteng, Areas We Cover",
-  description: "Truck Agents repairs and services heavy duty trucks in Johannesburg, Pretoria, Centurion, Midrand, Germiston, Kempton Park, Boksburg, Benoni, Alberton, Roodepoort, Krugersdorp and Vereeniging.",
+  description: "Agents Diesel Services repairs and services heavy duty trucks in Johannesburg, Pretoria, Centurion, Midrand, Germiston, Kempton Park, Boksburg, Benoni, Alberton, Roodepoort, Krugersdorp and Vereeniging.",
   alternates: { canonical: "/service-areas" },
 }
 

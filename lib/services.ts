@@ -62,10 +62,10 @@ export const SERVICES: Service[] = [
       "Heavy duty truck repairs across Gauteng. Engines, gearboxes, brakes, electrical and suspension fixed by experienced truck mechanics. Call Now or send a WhatsApp job card.",
     keywords: ["heavy duty truck repairs Gauteng", "truck mechanic Johannesburg", "truck repair workshop Gauteng", "truck breakdown repairs"],
     image: "/heavy-duty-truck-repairs.jpg",
-    imageAlt: "Heavy duty truck repairs in the Truck Agents workshop in Gauteng",
+    imageAlt: "Heavy duty truck repairs in the Agents Diesel Services workshop in Gauteng",
     headline: "Heavy duty truck repairs that get you back on the road",
     intro:
-      "When a truck stands still, the money stops. Truck Agents repairs heavy duty trucks, truck tractors, rigid trucks and light commercial vehicles across Gauteng. We find the fault, give you a clear quote and fix it properly.",
+      "When a truck stands still, the money stops. Agents Diesel Services repairs heavy duty trucks, truck tractors, rigid trucks and light commercial vehicles across Gauteng. We find the fault, give you a clear quote and fix it properly.",
     includes: [
       "Fault finding and diagnostics",
       "Engine, gearbox and diff repairs",
@@ -75,7 +75,7 @@ export const SERVICES: Service[] = [
       "Repairs on all major truck brands",
     ],
     signs: ["Loss of power or heavy smoke", "Overheating or leaking fluids", "Warning lights on the dash", "Hard gear changes or clutch slip", "Brakes pulling or feeling weak"],
-    answer: "Truck Agents repairs heavy duty trucks across Gauteng, including engines, gearboxes, brakes, electrical faults and suspension, and gives a clear quote before work starts.",
+    answer: "Agents Diesel Services repairs heavy duty trucks across Gauteng, including engines, gearboxes, brakes, electrical faults and suspension, and gives a clear quote before work starts.",
     problem: "Engine problem",
     faqs: [
       { q: "Which truck brands do you repair?", a: "We work on Isuzu, Hino, UD Trucks, Scania and Mazda, and on other major heavy duty and commercial brands used on South African roads. Send your truck make and model on the job card and we will confirm." },
@@ -92,7 +92,7 @@ export const SERVICES: Service[] = [
       "Truck engine overhauls and diesel engine rebuilds in Gauteng. Strip down, inspection, machining and rebuild for Isuzu, Hino, UD, Scania and more. Get a free quote.",
     keywords: ["truck engine overhaul Gauteng", "diesel engine rebuild Johannesburg", "Volvo truck engine repair", "truck engine reconditioning"],
     image: "/truck-agents-volvo-heavy-duty-truck-engine.jpg",
-    imageAlt: "Volvo heavy duty truck engine ready for overhaul at Truck Agents",
+    imageAlt: "Volvo heavy duty truck engine ready for overhaul at Agents Diesel Services",
     headline: "Truck engine overhauls done properly",
     intro:
       "A tired engine costs you in fuel, downtime and breakdowns. We strip, inspect and rebuild heavy duty diesel engines so your truck earns again, and we explain what each part of the job costs before we start.",
@@ -105,7 +105,7 @@ export const SERVICES: Service[] = [
       "Test run and final check",
     ],
     signs: ["Blue or black smoke", "Oil consumption going up", "Low compression or hard starting", "Knocking or unusual noises", "Coolant mixing with oil"],
-    answer: "Truck Agents overhauls and rebuilds heavy duty diesel truck engines in Gauteng, with full strip down, inspection and a clear quote before work begins.",
+    answer: "Agents Diesel Services overhauls and rebuilds heavy duty diesel truck engines in Gauteng, with full strip down, inspection and a clear quote before work begins.",
     problem: "Engine problem",
     faqs: [
       { q: "How long does an engine overhaul take?", a: "It depends on the engine and parts availability. After inspection we give you a realistic time frame on the quote." },
@@ -134,7 +134,7 @@ export const SERVICES: Service[] = [
       "Gearbox oil and filter service",
     ],
     signs: ["Grinding when changing gear", "Gearbox jumping out of gear", "Whining noise in drive", "Oil leaks at the gearbox", "Clutch slipping or sticking"],
-    answer: "Truck Agents repairs and rebuilds truck gearboxes and transmissions in Gauteng, replacing worn gears, bearings and synchros and refitting the unit.",
+    answer: "Agents Diesel Services repairs and rebuilds truck gearboxes and transmissions in Gauteng, replacing worn gears, bearings and synchros and refitting the unit.",
     problem: "Gearbox or clutch",
     faqs: [
       { q: "Can you repair a gearbox without replacing it?", a: "Often yes. We strip the unit, replace the worn gears and bearings and rebuild it. If it is beyond repair we tell you honestly." },
@@ -163,7 +163,7 @@ export const SERVICES: Service[] = [
       "Service records for fleet owners",
     ],
     signs: ["Service interval is due", "Fuel use is climbing", "Trip is coming up", "Roadworthy test is due", "New truck added to your fleet"],
-    answer: "Truck Agents services trucks and runs scheduled maintenance for owner drivers and fleets across Gauteng, so problems are caught before they cause a breakdown.",
+    answer: "Agents Diesel Services services trucks and runs scheduled maintenance for owner drivers and fleets across Gauteng, so problems are caught before they cause a breakdown.",
     problem: "Service or maintenance",
     faqs: [
       { q: "Do you offer fleet maintenance plans?", a: "Yes. Tell us how many trucks you run and how far they travel and we will set up a service schedule that fits." },
@@ -179,7 +179,7 @@ export const SERVICES: Service[] = [
       "Truck spray painting, cab repairs and panel work in Gauteng. Full cab resprays, accident repairs and fleet colour matching. Send photos on WhatsApp for a free quote.",
     keywords: ["truck spray painting Gauteng", "truck cab respray", "commercial vehicle panel beating", "truck bodywork repairs"],
     image: "/truck-agents-ud-truck-cab-repair-restored-after.jpg",
-    imageAlt: "UD truck cab repaired and repainted by Truck Agents",
+    imageAlt: "UD truck cab repaired and repainted by Agents Diesel Services",
     headline: "Truck spray painting and cab repairs",
     intro:
       "A clean, well painted truck tells clients you run a serious business. We repair and respray cabs, bodies and panels, and we match your fleet colours so every truck looks the part.",
@@ -197,7 +197,7 @@ export const SERVICES: Service[] = [
       { src: "/truck-agents-truck-cab-respraying-workshop.jpg", alt: "Truck cab masked and prepared for respraying", caption: "Masked and prepped" },
       { src: "/truck-agents-truck-cab-spray-painting-prep.jpg", alt: "Truck cab covered ready for spray painting", caption: "Ready for paint" },
     ],
-    answer: "Truck Agents repairs and respray truck cabs and bodies in Gauteng, including fleet colour matching, accident touch ups and full cab resprays.",
+    answer: "Agents Diesel Services repairs and respray truck cabs and bodies in Gauteng, including fleet colour matching, accident touch ups and full cab resprays.",
     problem: "Spray painting or cab repair",
     faqs: [
       { q: "Can you match my fleet colours?", a: "Yes. Send us the paint code or a clear photo and we will match it as closely as possible." },
@@ -226,7 +226,7 @@ export const SERVICES: Service[] = [
       "Bleeding and test run",
     ],
     signs: ["Diesel smell or visible leaks", "Hard starting or stalling", "Black smoke and low power", "Damaged or dented tank", "Water in the fuel"],
-    answer: "Truck Agents fits and repairs aluminium and steel diesel tanks and services truck fuel systems, including injectors and fuel pumps, across Gauteng.",
+    answer: "Agents Diesel Services fits and repairs aluminium and steel diesel tanks and services truck fuel systems, including injectors and fuel pumps, across Gauteng.",
     problem: "Diesel tank or fuel system",
     faqs: [
       { q: "Can you fit a larger diesel tank?", a: "Yes. Tell us the truck model and the tank size you need and we will advise on fitment." },
@@ -255,7 +255,7 @@ export const SERVICES: Service[] = [
       "Repacking and greasing",
     ],
     signs: ["Hot hubs after a trip", "Grease leaking at the wheel", "Wheel wobble or noise", "Uneven tyre wear", "Brakes dragging on the trailer"],
-    answer: "Truck Agents maintains trailer axles, hubs and wheel bearings across Gauteng, preventing wheel failures with inspection, repacking and replacement.",
+    answer: "Agents Diesel Services maintains trailer axles, hubs and wheel bearings across Gauteng, preventing wheel failures with inspection, repacking and replacement.",
     problem: "Trailer axle or bearings",
     faqs: [
       { q: "How often should trailer bearings be checked?", a: "At every service and before long trips. Heavy loads and rough roads mean more frequent checks." },
@@ -284,7 +284,7 @@ export const SERVICES: Service[] = [
       "Painting and protective coatings",
     ],
     signs: ["Cracks or worn floors", "Tailgate not sealing", "Slow or uneven tipping", "Damaged side rails", "Body paint and rust damage"],
-    answer: "Truck Agents repairs tipper bodies, flatbeds and trailers in Gauteng, including welding, fabrication, hydraulics and protective painting.",
+    answer: "Agents Diesel Services repairs tipper bodies, flatbeds and trailers in Gauteng, including welding, fabrication, hydraulics and protective painting.",
     problem: "Tipper or body repair",
     faqs: [
       { q: "Can you repair hydraulic tipping systems?", a: "Yes. We repair rams, hoses and valves as part of tipper body work." },
@@ -313,7 +313,7 @@ export const SERVICES: Service[] = [
       "Roadworthy preparation",
     ],
     signs: ["Brake pedal feels soft", "Air leaks when parked", "Truck pulls to one side", "Vibration at speed", "Worn or damaged tyres"],
-    answer: "Truck Agents repairs truck brakes, wheels, hubs and air brake systems in Gauteng and prepares trucks for roadworthy tests.",
+    answer: "Agents Diesel Services repairs truck brakes, wheels, hubs and air brake systems in Gauteng and prepares trucks for roadworthy tests.",
     problem: "Brakes",
     faqs: [
       { q: "Can you prepare my truck for a roadworthy?", a: "Yes. We check and repair the items that matter for the test so your truck is ready to pass." },
@@ -342,7 +342,7 @@ export const SERVICES: Service[] = [
       "Quotes from photos for insurers and owners",
     ],
     signs: ["Front end or cab damage", "Cracked or missing bumper", "Dented doors and panels", "Insurance quote needed", "Truck needs to look right for clients"],
-    answer: "Truck Agents rebuilds and repairs accident damaged trucks in Gauteng, including Hino and UD cabs, with panel beating, bumper repairs and full resprays. Send photos on WhatsApp for a quote.",
+    answer: "Agents Diesel Services rebuilds and repairs accident damaged trucks in Gauteng, including Hino and UD cabs, with panel beating, bumper repairs and full resprays. Send photos on WhatsApp for a quote.",
     problem: "Accident damage or panel beating",
     gallery: [BA_HINO, BA_UD],
     faqs: [
@@ -360,7 +360,7 @@ export const SERVICES: Service[] = [
       "Truck bed rubberizing and spray on bed liner coating in Gauteng. Repair, sand and coat damaged truck beds for a tough, non slip finish. See before and after photos and get a free quote.",
     keywords: ["truck bed rubberizing Gauteng", "bakkie bed liner Johannesburg", "spray on bed liner", "truck bed coating", "rubberized truck bed"],
     image: "/truck-agents-truck-bed-rubberizing-after-coating.jpg",
-    imageAlt: "Truck bed after rubberized coating by Truck Agents",
+    imageAlt: "Truck bed after rubberized coating by Agents Diesel Services",
     headline: "Truck bed rubberizing that protects your load bed",
     intro:
       "A worn, rusty or damaged bed loses value fast. We repair the bed, sand and prepare the surface, then spray a tough rubberized coating that grips loads, resists scratches and keeps water out.",
@@ -373,7 +373,7 @@ export const SERVICES: Service[] = [
       "Fleet bed protection",
     ],
     signs: ["Rust or bare metal in the bed", "Deep scratches and dents", "Loads sliding around", "New truck needs protection", "Resale value is dropping"],
-    answer: "Truck Agents repairs, sands and sprays a rubberized coating on bakkie and truck beds in Gauteng for a tough, non slip, scratch resistant finish.",
+    answer: "Agents Diesel Services repairs, sands and sprays a rubberized coating on bakkie and truck beds in Gauteng for a tough, non slip, scratch resistant finish.",
     problem: "Bed liner or rubberizing",
     gallery: [BA_BED],
     process: [

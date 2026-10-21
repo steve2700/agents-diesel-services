@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 import { PageHero } from "@/components/page-hero"
 
-export const metadata: Metadata = { title: "Terms of Service", description: "Terms for using the Truck Agents website and requesting truck repair quotes.", alternates: { canonical: "/terms-of-service" } }
+export const metadata: Metadata = { title: "Terms of Service", description: "Terms for using the Agents Diesel Services website and requesting truck repair quotes.", alternates: { canonical: "/terms-of-service" } }
 
 export default function Terms() {
   const h = "mt-10 text-3xl font-semibold"
@@ -18,7 +18,7 @@ export default function Terms() {
         <h2 className={h}>Website content</h2>
         <p className={p}>Information on this site is provided in good faith and may change without notice. Photos are for illustration.</p>
         <h2 className={h}>Liability</h2>
-        <p className={p}>To the extent allowed by law, Truck Agents is not liable for loss arising from the use of this website.</p>
+        <p className={p}>To the extent allowed by law, Agents Diesel Services is not liable for loss arising from the use of this website.</p>
         <h2 className={h}>Contact</h2>
         <p className={p}>Questions about these terms can be sent to us through the contact page.</p>
       </article>

@@ -1,8 +1,8 @@
-# Truck Agents. Search engines and AI assistants are welcome.
+# Agents Diesel Services. Search engines and AI assistants are welcome.
 User-agent: *
 Allow: /
 
-Sitemap: https://www.truckagents.co.za/sitemap.xml
+Sitemap: https://www.agentsdieselservices.co.za/sitemap.xml
 
 # AI search and assistant crawlers
 User-agent: GPTBot

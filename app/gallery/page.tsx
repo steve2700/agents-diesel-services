@@ -8,7 +8,7 @@ import { CallButton, LinkButton } from "@/components/buttons"
 
 export const metadata: Metadata = {
   title: "Truck Repair Gallery",
-  description: "Photos from the Truck Agents workshop: engine overhauls, gearbox repairs, spray painting, diesel tank fitting, trailer axles and tipper bodies in Gauteng.",
+  description: "Photos from the Agents Diesel Services workshop: engine overhauls, gearbox repairs, spray painting, diesel tank fitting, trailer axles and tipper bodies in Gauteng.",
   alternates: { canonical: "/gallery" },
 }
 

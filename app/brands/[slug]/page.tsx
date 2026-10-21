@@ -38,7 +38,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
   const b = getBrand(slug)
   if (!b) notFound()
   const faqs = [
-    { q: `Do you repair ${b.name} trucks?`, a: `Yes. Truck Agents repairs and services ${b.name} trucks across Gauteng, including mechanical repairs, servicing, brakes, electrical faults and accident repairs.` },
+    { q: `Do you repair ${b.name} trucks?`, a: `Yes. Agents Diesel Services repairs and services ${b.name} trucks across Gauteng, including mechanical repairs, servicing, brakes, electrical faults and accident repairs.` },
     { q: `Can you do ${b.name} accident repairs and spray painting?`, a: "Yes. We do panel beating, cab and bumper repairs and full resprays. See our before and after photos for examples." },
     { q: `How do I get a quote for my ${b.name}?`, a: `Fill in the job card on this page. It opens in WhatsApp with your ${b.name} details ready to send. Add photos in the chat and we will come back with a quote.` },
   ]
@@ -47,7 +47,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
       <JsonLd data={{ "@context": "https://schema.org", "@type": "Service", name: `${b.name} truck repairs`, url: `${SITE.url}/brands/${b.slug}`, provider: { "@id": `${SITE.url}/#business` }, areaServed: { "@type": "AdministrativeArea", name: "Gauteng" }, brand: { "@type": "Brand", name: b.name } }} />
       <PageHero crumbs={[{ name: "Brands", href: "/brands" }, { name: b.name, href: `/brands/${b.slug}` }]} title={`${b.name} truck repairs in Gauteng`} text={b.intro} image={{ src: b.image, alt: b.imageAlt }}>
         <CallButton />
-        <WhatsAppButton message={`Hi Truck Agents, I need a repair on my ${b.name} truck.`} />
+        <WhatsAppButton message={`Hi Agents Diesel Services, I need a repair on my ${b.name} truck.`} />
         <LinkButton href="#job-card" look="outlineLight">Get a Free Quote</LinkButton>
       </PageHero>
       <section className="mx-auto max-w-7xl px-5 py-20">

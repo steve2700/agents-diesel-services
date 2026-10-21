@@ -3,9 +3,9 @@ import { SERVICES } from "@/lib/services"
 import { AREAS } from "@/lib/areas"
 import { BRANDS } from "@/lib/brands"
 
-const head = `# Truck Agents
+const head = `# Agents Diesel Services
 
-> Truck Agents repairs, services and maintains heavy duty trucks, trailers and light commercial vehicles across Gauteng and its outskirts, South Africa. Services include heavy duty truck repairs, engine overhauls, gearbox repairs, servicing, spray painting, accident repairs and panel beating, diesel tank fitting, trailer axle maintenance, tipper body repairs, brake repairs and truck bed rubberizing. Brands: ${BRANDS.map((b) => b.name).join(", ")}.
+> Agents Diesel Services repairs, services and maintains heavy duty trucks, trailers and light commercial vehicles across Gauteng and its outskirts, South Africa. Services include heavy duty truck repairs, engine overhauls, gearbox repairs, servicing, spray painting, accident repairs and panel beating, diesel tank fitting, trailer axle maintenance, tipper body repairs, brake repairs and truck bed rubberizing. Brands: ${BRANDS.map((b) => b.name).join(", ")}.
 
 Website: ${SITE.url}
 Phone and WhatsApp: ${SITE.phoneDisplay}

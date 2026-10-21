@@ -7,8 +7,8 @@ import { PhotoStrip } from "@/components/photo-strip"
 import { SITE, WA_LINK } from "@/lib/site"
 
 export const metadata: Metadata = {
-  title: "Contact Truck Agents and Get a Free Quote",
-  description: "Call Truck Agents, send a WhatsApp job card or email us for truck repairs, servicing and maintenance across Gauteng and its outskirts.",
+  title: "Contact Agents Diesel Services and Get a Free Quote",
+  description: "Call Agents Diesel Services, send a WhatsApp job card or email us for truck repairs, servicing and maintenance across Gauteng and its outskirts.",
   alternates: { canonical: "/contact" },
 }
 
@@ -23,7 +23,7 @@ export default function ContactPage() {
             <span className="flex h-14 w-14 items-center justify-center rounded-full bg-white text-signal"><PhoneIcon className="h-6 w-6" /></span>
             <span><span className="block font-display text-xl">Call Now</span><span className="font-display text-3xl font-bold">{SITE.phoneDisplay}</span></span>
           </a>
-          <a href={WA_LINK("Hi Truck Agents, I need help with my truck.")} target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 rounded-[2rem] bg-[#25D366] p-6 text-ink transition hover:bg-[#1fbd5b]">
+          <a href={WA_LINK("Hi Agents Diesel Services, I need help with my truck.")} target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 rounded-[2rem] bg-[#25D366] p-6 text-ink transition hover:bg-[#1fbd5b]">
             <span className="flex h-14 w-14 items-center justify-center rounded-full bg-ink text-[#25D366]"><WhatsAppIcon className="h-7 w-7" /></span>
             <span><span className="block font-display text-xl">WhatsApp</span><span className="font-display text-3xl font-bold">Chat with us</span></span>
           </a>

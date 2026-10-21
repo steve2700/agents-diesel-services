@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const drifts = ["drift-a", "drift-b", "drift-c"]
 
-/** A photo with a slow camera drift and the TA mark stamped in the corner. */
+/** A photo with a slow camera drift and the Agents Diesel mark stamped in the corner. */
 export function MovingImage({
   src, alt, className = "", sizes = "(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw",
   priority = false, variant = 0, mark = true, markWidth = 58,

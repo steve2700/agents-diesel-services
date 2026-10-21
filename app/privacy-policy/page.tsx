@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import { PageHero } from "@/components/page-hero"
 import { SITE } from "@/lib/site"
 
-export const metadata: Metadata = { title: "Privacy Policy", description: "How Truck Agents collects, uses and protects your personal information.", alternates: { canonical: "/privacy-policy" } }
+export const metadata: Metadata = { title: "Privacy Policy", description: "How Agents Diesel Services collects, uses and protects your personal information.", alternates: { canonical: "/privacy-policy" } }
 
 export default function Privacy() {
   const h = "mt-10 text-3xl font-semibold"
@@ -11,7 +11,7 @@ export default function Privacy() {
     <>
       <PageHero crumbs={[{ name: "Privacy Policy", href: "/privacy-policy" }]} title="Privacy Policy" />
       <article className="mx-auto max-w-3xl px-5 py-16">
-        <p className={p}>Truck Agents respects your privacy and handles personal information in line with the Protection of Personal Information Act (POPIA).</p>
+        <p className={p}>Agents Diesel Services respects your privacy and handles personal information in line with the Protection of Personal Information Act (POPIA).</p>
         <h2 className={h}>What we collect</h2>
         <p className={p}>When you send a job card or contact us, we receive your name, your phone number or WhatsApp number, your truck details, your location and any photos or messages you send. The job card form does not store anything on our website. It prepares a WhatsApp message that you choose to send.</p>
         <h2 className={h}>How we use it</h2>

@@ -8,7 +8,7 @@ import { CallButton, WhatsAppButton } from "@/components/buttons"
 
 export const metadata: Metadata = {
   title: "Truck Repair FAQ",
-  description: "Answers to common questions about truck repairs, quotes, servicing, fleet maintenance and areas covered by Truck Agents in Gauteng.",
+  description: "Answers to common questions about truck repairs, quotes, servicing, fleet maintenance and areas covered by Agents Diesel Services in Gauteng.",
   alternates: { canonical: "/faq" },
 }
 

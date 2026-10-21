@@ -29,7 +29,7 @@ function Column({ items, cls, offset }: { items: P[]; cls: string; offset: numbe
 
 export function HeroConvoy() {
   return (
-    <div className="relative h-[460px] md:h-[620px]" aria-label="Truck Agents workshop photos">
+    <div className="relative h-[460px] md:h-[620px]" aria-label="Agents Diesel Services workshop photos">
       <div className="grid h-full grid-cols-2 gap-4">
         <Column items={colA} cls="roll-up" offset={0} />
         <Column items={colB} cls="roll-down" offset={1} />

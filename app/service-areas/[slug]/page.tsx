@@ -38,7 +38,7 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
   if (!a) notFound()
   const nearby = AREAS.filter((x) => x.slug !== a.slug).slice(0, 6)
   const faqs = [
-    { q: `Do you repair trucks in ${a.name}?`, a: `Yes. Truck Agents repairs and services heavy duty trucks, trailers and light commercial vehicles for owners and fleets in ${a.name} and the surrounding areas.` },
+    { q: `Do you repair trucks in ${a.name}?`, a: `Yes. Agents Diesel Services repairs and services heavy duty trucks, trailers and light commercial vehicles for owners and fleets in ${a.name} and the surrounding areas.` },
     { q: `How do I get a quote for my truck in ${a.name}?`, a: `Fill in the job card on this page. It opens in WhatsApp with your truck details ready to send. Add photos in the chat and we will come back with a quote.` },
     { q: `Which areas near ${a.name} do you cover?`, a: `We cover ${a.places.join(", ")} and the wider Gauteng area, including ${nearby.slice(0, 3).map((n) => n.name).join(", ")}.` },
   ]
@@ -48,7 +48,7 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
       <JsonLd data={{ "@context": "https://schema.org", "@type": "Service", name: `Truck repairs in ${a.name}`, url: `${SITE.url}/service-areas/${a.slug}`, provider: { "@id": `${SITE.url}/#business` }, areaServed: { "@type": "City", name: a.name, containedInPlace: { "@type": "AdministrativeArea", name: "Gauteng" } } }} />
       <PageHero crumbs={[{ name: "Areas", href: "/service-areas" }, { name: a.name, href: `/service-areas/${a.slug}` }]} title={`Heavy duty truck repairs in ${a.name}`} text={a.context}>
         <CallButton />
-        <WhatsAppButton message={`Hi Truck Agents, I need a truck repair in ${a.name}.`} />
+        <WhatsAppButton message={`Hi Agents Diesel Services, I need a truck repair in ${a.name}.`} />
         <LinkButton href="#job-card" look="outlineLight">Get a Free Quote</LinkButton>
       </PageHero>
 

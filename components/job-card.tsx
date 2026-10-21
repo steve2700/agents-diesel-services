@@ -18,15 +18,15 @@ export function JobCard({ defaultProblem = "", defaultArea = "", defaultTruck = 
   const [name, setName] = useState("")
   const [phone, setPhone] = useState("")
   const [details, setDetails] = useState("")
-  const [ref, setRef] = useState("TA000000")
+  const [ref, setRef] = useState("ADS000000")
 
-  useEffect(() => setRef(`TA${Math.floor(100000 + Math.random() * 900000)}`), [])
+  useEffect(() => setRef(`ADS${Math.floor(100000 + Math.random() * 900000)}`), [])
 
   const ready = problem && truck.trim() && name.trim()
 
   const message = useMemo(() => {
     const lines = [
-      "*TRUCK AGENTS JOB CARD*",
+      "*AGENTS DIESEL SERVICES JOB CARD*",
       `Ref: ${ref}`,
       `Name: ${name.trim() || "..."}`,
       `Truck: ${truck.trim() || "..."}`,

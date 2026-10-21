@@ -43,7 +43,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
       <JsonLd data={{ "@context": "https://schema.org", "@type": "Service", name: s.name, description: s.metaDescription, url: `${SITE.url}/services/${s.slug}`, serviceType: s.name, provider: { "@id": `${SITE.url}/#business` }, areaServed: { "@type": "AdministrativeArea", name: "Gauteng" } }} />
       <PageHero crumbs={[{ name: "Services", href: "/services" }, { name: s.name, href: `/services/${s.slug}` }]} title={s.headline} text={s.intro}>
         <CallButton />
-        <WhatsAppButton message={`Hi Truck Agents, I need ${s.name.toLowerCase()}.`} />
+        <WhatsAppButton message={`Hi Agents Diesel Services, I need ${s.name.toLowerCase()}.`} />
         <LinkButton href="#job-card" look="outlineLight">Get a Free Quote</LinkButton>
       </PageHero>
 

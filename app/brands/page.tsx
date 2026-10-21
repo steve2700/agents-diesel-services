@@ -8,7 +8,7 @@ import { BRANDS } from "@/lib/brands"
 
 export const metadata: Metadata = {
   title: "Truck Brands We Repair: Isuzu, Hino, UD, Scania and Mazda",
-  description: "Truck Agents repairs and services Isuzu, Hino, UD Trucks, Scania and Mazda trucks across Gauteng. Mechanical repairs, accident repairs and spray painting.",
+  description: "Agents Diesel Services repairs and services Isuzu, Hino, UD Trucks, Scania and Mazda trucks across Gauteng. Mechanical repairs, accident repairs and spray painting.",
   alternates: { canonical: "/brands" },
 }
 

@@ -24,14 +24,14 @@ export const viewport: Viewport = { themeColor: "#0b0b0c" }
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: "Truck Agents | Heavy Duty Truck Repairs, Services and Maintenance in Gauteng",
-    template: "%s | Truck Agents",
+    default: "Agents Diesel Services | Heavy Duty Truck Repairs in Gauteng",
+    template: "%s | Agents Diesel",
   },
   description:
-    "Truck Agents repairs, services and maintains heavy duty trucks across Gauteng and its outskirts. Engines, gearboxes, brakes, spray painting, diesel tanks and trailers. Call Now or send a WhatsApp job card.",
-  keywords: ["heavy duty truck repairs Gauteng", "truck mechanic Johannesburg", "truck servicing Gauteng", "truck engine overhaul", "truck gearbox repairs", "truck spray painting", "Truck Agents"],
-  applicationName: "Truck Agents",
-  authors: [{ name: "Truck Agents", url: SITE.url }],
+    "Agents Diesel Services repairs, services and maintains heavy duty trucks across Gauteng and its outskirts. Engines, gearboxes, brakes, spray painting, diesel tanks and trailers. Call Now or send a WhatsApp job card.",
+  keywords: ["heavy duty truck repairs Gauteng", "truck mechanic Johannesburg", "diesel truck repairs Gauteng", "diesel mechanic Johannesburg", "truck servicing Gauteng", "truck engine overhaul", "truck gearbox repairs", "truck spray painting", "Agents Diesel Services"],
+  applicationName: "Agents Diesel Services",
+  authors: [{ name: "Agents Diesel Services", url: SITE.url }],
   alternates: { canonical: "/" },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1, "max-video-preview": -1 } },
   icons: {
@@ -48,12 +48,12 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_ZA",
     url: SITE.url,
-    siteName: "Truck Agents",
-    title: "Truck Agents | Heavy Duty Truck Repairs in Gauteng",
+    siteName: "Agents Diesel Services",
+    title: "Agents Diesel Services | Heavy Duty Truck Repairs in Gauteng",
     description: "Repairs, services and maintenance for heavy duty trucks across Gauteng and its outskirts.",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Truck Agents, heavy duty truck repairs in Gauteng" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Agents Diesel Services, heavy duty truck repairs in Gauteng" }],
   },
-  twitter: { card: "summary_large_image", title: "Truck Agents | Heavy Duty Truck Repairs in Gauteng", description: "Repairs, services and maintenance for heavy duty trucks across Gauteng.", images: ["/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Agents Diesel Services | Heavy Duty Truck Repairs in Gauteng", description: "Repairs, services and maintenance for heavy duty trucks across Gauteng.", images: ["/og-image.png"] },
   category: "Truck repairs",
   other: { "geo.region": "ZA-GP", "geo.placename": "Gauteng, South Africa" },
 }

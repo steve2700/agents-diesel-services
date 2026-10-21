@@ -8,14 +8,14 @@ import { SERVICES } from "@/lib/services"
 
 export const metadata: Metadata = {
   title: "Truck Repair, Servicing and Maintenance Services in Gauteng",
-  description: "All Truck Agents services: heavy duty truck repairs, engine overhauls, gearbox repairs, servicing, spray painting, diesel tanks, trailer axles, tipper bodies and brakes across Gauteng.",
+  description: "All Agents Diesel Services services: heavy duty truck repairs, engine overhauls, gearbox repairs, servicing, spray painting, diesel tanks, trailer axles, tipper bodies and brakes across Gauteng.",
   alternates: { canonical: "/services" },
 }
 
 export default function ServicesPage() {
   return (
     <>
-      <PageHero crumbs={[{ name: "Services", href: "/services" }]} title="Truck repair services across Gauteng" image={{ src: "/heavy-duty-truck-repairs.jpg", alt: "Heavy duty truck being repaired in the Truck Agents workshop" }} text="Everything your truck or trailer needs, from a full engine overhaul to a coat of paint. Pick a service or send a job card and we will sort it.">
+      <PageHero crumbs={[{ name: "Services", href: "/services" }]} title="Truck repair services across Gauteng" image={{ src: "/heavy-duty-truck-repairs.jpg", alt: "Heavy duty truck being repaired in the Agents Diesel Services workshop" }} text="Everything your truck or trailer needs, from a full engine overhaul to a coat of paint. Pick a service or send a job card and we will sort it.">
         <CallButton />
         <LinkButton href="/contact#job-card" look="outlineLight">Get a Free Quote</LinkButton>
       </PageHero>
